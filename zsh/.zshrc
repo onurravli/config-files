@@ -1,7 +1,16 @@
 ###################################################################
+############################ functions ############################
+###################################################################
+
+function vite() {
+  npm create vite@latest $1 -- --template react-ts
+}
+
+###################################################################
 ############################# aliases #############################
 ###################################################################
 
+alias srt='npx sort-package-json'
 alias gs="git status"
 alias gcm="git commit -m"
 alias gaa="git add ."
@@ -11,6 +20,7 @@ alias gpl="git pull"
 alias gps="git push"
 alias cna="pnpx create-next-app"
 alias crna="pnpx @react-native-community/cli@latest init"
+alias nrd="npm run dev"
 
 ###################################################################
 ####################### p10k instant prompt #######################
@@ -34,6 +44,11 @@ export ZSH_THEME="robbyrussell"
 export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="/Applications/Postgres.app/Contents/Versions/16/bin:$PATH"
+export DENO_INSTALL="/Users/onur/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export PROMPT_EOL_MARK=''
+export MAVEN_PATH="/Users/onur/Downloads/apache-maven-3.9.9/"
+export PATH=$PATH:$MAVEN_PATH/bin
 
 ###################################################################
 ############################# plugins #############################
@@ -69,12 +84,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ###################################################################
-########################### angular cli ###########################
-###################################################################
-
-source <(ng completion script)
-
-###################################################################
 ############################## asdf ###############################
 ###################################################################
 
@@ -86,14 +95,22 @@ autoload -Uz compinit && compinit
 ############################## conda ##############################
 ###################################################################
 
-__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+# __conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+#         . "/opt/anaconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/opt/anaconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+
+# pnpm
+export PNPM_HOME="/Users/onur/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
