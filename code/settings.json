@@ -1,36 +1,65 @@
 {
-  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-  "[go]": { "editor.defaultFormatter": "golang.go" },
-  "[java]": { "editor.defaultFormatter": "redhat.java" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[prisma]": { "editor.defaultFormatter": "Prisma.prisma" },
-  "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
-  "[sql]": { "editor.defaultFormatter": "mtxr.sqltools" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
-  "aws.lambda.recentlyUploaded": {
-    "profile:aws": { "eu-north-1": "getAllTodos" }
+  "prettier.useEditorConfig": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "aws.lambda.recentlyUploaded": {
+    "profile:aws": {
+      "eu-north-1": "getAllTodos"
+    }
+  },
+  "breadcrumbs.enabled": true,
   "C_Cpp.clang_format_fallbackStyle": "Google",
   "C_Cpp.clang_format_style": "Google",
   "C_Cpp.formatting": "vcFormat",
   "C_Cpp.vcFormat.newLine.beforeElse": false,
   "debug.console.fontFamily": "GeistMono Nerd Font",
-  "debug.console.fontSize": 17,
+  "debug.console.fontSize": 15,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "GeistMono Nerd Font",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 17,
-  "editor.fontWeight": "400",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "500",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": false,
   "editor.padding.top": 15,
-  "editor.rulers": [{ "column": 80 }],
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    {
+      "column": 80
+    }
+  ],
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -40,9 +69,10 @@
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
-    "markdown": true,
+    "markdown": false,
     "scminput": false,
-    "properties": false
+    "properties": false,
+    "shellscript": false
   },
   "gitlens.ai.experimental.model": "openai:gpt-4-turbo",
   "gitlens.launchpad.indicator.enabled": false,
@@ -55,15 +85,27 @@
   "terminal.integrated.cursorStyleInactive": "line",
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "GeistMono Nerd Font",
-  "terminal.integrated.fontSize": 17,
-  "terminal.integrated.fontWeight": "400",
-  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "500",
   "terminal.integrated.mouseWheelZoom": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.scrollback": 999999999,
   "update.showReleaseNotes": false,
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "dart.flutterSdkPath": "/Users/onur/flutter",
   "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none"
+  "svg.preview.mode": "svg",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "scminput",
+    "properties",
+    "shellscript"
+  ]
 }
+
