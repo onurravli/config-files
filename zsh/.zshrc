@@ -10,6 +10,8 @@ function vite() {
 ############################# aliases #############################
 ###################################################################
 
+alias code='cursor'
+alias be='brew upgrade'
 alias srt='npx sort-package-json'
 alias gs="git status"
 alias gcm="git commit -m"
@@ -49,7 +51,12 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 export PROMPT_EOL_MARK=''
 export MAVEN_PATH="/Users/onur/Downloads/apache-maven-3.9.9/"
 export PATH=$PATH:$MAVEN_PATH/bin
-
+export GO_PATH="/Users/onur/Development/go"
+export PATH=$PATH:$GO_PATH/bin
+export FLUTTER_PATH="/Users/onur/Development/flutter"
+export PATH=$PATH:$FLUTTER_PATH/bin
+export POSTGRES_PATH="/Applications/Postgres.app/Contents/Versions/17/bin"
+export PATH=$PATH:$POSTGRES_PATH
 ###################################################################
 ############################# plugins #############################
 ###################################################################
@@ -114,3 +121,9 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/onur/.cache/lm-studio/bin"
