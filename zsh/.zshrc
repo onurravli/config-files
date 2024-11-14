@@ -43,6 +43,7 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export M2_HOME="/Users/onur/Downloads/apache-maven-3.9.8"
 export PATH=$PATH:$M2_HOME/bin
 export ZSH_THEME="robbyrussell"
+# export ZSH_THEME="powerlevel10k/powerlevel10k"
 export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="/Applications/Postgres.app/Contents/Versions/16/bin:$PATH"
@@ -57,6 +58,11 @@ export FLUTTER_PATH="/Users/onur/Development/flutter"
 export PATH=$PATH:$FLUTTER_PATH/bin
 export POSTGRES_PATH="/Applications/Postgres.app/Contents/Versions/17/bin"
 export PATH=$PATH:$POSTGRES_PATH
+export MYSQL_PATH="/usr/local/mysql/bin"
+export PATH=$PATH:$MYSQL_PATH
+export METASPLOIT_PATH="/opt/metasploit-framework/bin"
+export PATH=$PATH:$METASPLOIT_PATH
+
 ###################################################################
 ############################# plugins #############################
 ###################################################################
