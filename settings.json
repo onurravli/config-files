@@ -1,0 +1,109 @@
+{
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "window.zoomLevel": 1,
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "C_Cpp.default.includePath": ["/usr/local/include"],
+  "prettier.useEditorConfig": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "breadcrumbs.enabled": true,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.clang_format_style": "Google",
+  "C_Cpp.formatting": "vcFormat",
+  "C_Cpp.vcFormat.newLine.beforeElse": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": false,
+  "editor.padding.top": 15,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    {
+      "column": 80
+    }
+    // {
+    //   "column": 120
+    // }
+  ],
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.wordWrap": "off",
+  "emmet.excludeLanguages": ["typescriptreact"],
+  "gitlens.ai.experimental.model": "openai:gpt-4-turbo",
+  "gitlens.launchpad.indicator.enabled": false,
+  "php.validate.executablePath": "/Applications/XAMPP/xamppfiles/bin/php",
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.mouseWheelZoom": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.scrollback": 999999999,
+  "update.showReleaseNotes": false,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "dart.flutterSdkPath": "/Users/onur/Development/flutter",
+  "svg.preview.mode": "svg",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "scminput",
+    "properties",
+    "ini",
+    "go",
+    "shellscript"
+  ],
+  "cmake.showOptionsMovedNotification": false,
+  "workbench.sideBar.location": "right",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "[svg]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "gutterpreview.showImagePreviewOnGutter": false
+}
+
